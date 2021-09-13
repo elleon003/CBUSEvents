@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Georama';
+    src: url('/assets/fonts/Georama-Regular_1.woff') format('woff');
+}
+@font-face {
+    font-family: 'Georama';
+    src: url('/assets/fonts/Georama-Light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Georama';
+    src: url('/assets/fonts/Georama-Medium_1.woff') format('woff');
+    font-weight:400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.woff') format('woff');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-display text-5xl lg:text-6xl tracking-wide;
+    }
+    h2 {
+        @apply font-display text-4xl lg:text-5xl tracking-wide;
+    }
+    h3 {
+        @apply font-display text-3xl lg:text-4xl tracking-wide;
+    }
+    p {
+        @apply text-2xl mb-4;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply bg-blue py-4 px-6 rounded text-white text-xl hover:bg-blue-dark hover:underline;
+    }
+    .container {
+        @apply w-[90%] mx-auto 2xl:w-[80%];
+    }
+}

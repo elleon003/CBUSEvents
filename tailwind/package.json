@@ -1,0 +1,16 @@
+{
+  "name": "cbusevents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i base.tailwind.css -o ../assets/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "tailwindcss": "^2.2.15"
+  }
+}
