@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Georama';
     src: url('/assets/fonts/Georama-Medium_1.woff') format('woff');
-    font-weight:400;
+    font-weight:500;
 }
 @font-face {
     font-family: 'Montserrat';
@@ -24,10 +24,10 @@
 
 @layer base {
     h1 {
-        @apply font-display text-5xl lg:text-6xl tracking-wide;
+        @apply font-display font-light text-5xl lg:text-6xl tracking-wide;
     }
     h2 {
-        @apply font-display text-4xl lg:text-5xl tracking-wide;
+        @apply font-display font-light text-4xl lg:text-5xl tracking-wide;
     }
     h3 {
         @apply font-display text-3xl lg:text-4xl tracking-wide;
